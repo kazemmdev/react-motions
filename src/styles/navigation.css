@@ -1,0 +1,21 @@
+nav {
+  width: 300px;
+  color: white;
+  background: rgb(30, 10, 119);
+  height: 100vh;
+  padding: 25px 20px;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  opacity: 0.8;
+}

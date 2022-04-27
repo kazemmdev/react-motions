@@ -5,6 +5,7 @@ import Home from "./views/Home";
 import Toggle from "./views/Toggle";
 
 import "./styles/index.css";
+import Drag from "./views/Drag";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/toggle" element={<Toggle />} />
+            <Route path="/drag" element={<Drag />} />
           </Routes>
         </div>
       </div>

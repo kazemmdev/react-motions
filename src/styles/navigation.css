@@ -4,6 +4,9 @@ nav {
   background: rgb(30, 10, 119);
   height: 100vh;
   padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 h1 {

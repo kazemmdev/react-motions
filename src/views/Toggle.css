@@ -1,0 +1,17 @@
+.wrapper {
+  background: #dbdbdb;
+  width: 100px;
+  height: 60px;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 4px 2px #61616152;
+}
+
+.toggler {
+  background: #e9e9e9;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  box-shadow: inset 2px 3px 6px 1px #ffffffa1;
+}

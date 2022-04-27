@@ -1,0 +1,25 @@
+.mparallax {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: #dbdbdb;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: #eee;
+  /* position: absolute; */
+}
+
+.squre {
+  height: 140px;
+  width: 140px;
+  background: rgb(56, 116, 245);
+  /* position: absolute; */
+  /* margin: auto; */
+}

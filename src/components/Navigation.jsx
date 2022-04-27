@@ -8,8 +8,9 @@ const Navigation = () => {
       <Link to="/">
         <h1>Projects</h1>
       </Link>
-      <Link to="/toggle">Somple Toggle</Link>
-      <Link to="/drag">Somple Drag</Link>
+      <Link to="/toggle">Sample Toggle</Link>
+      <Link to="/drag">Sample Drag</Link>
+      <Link to="/mouse-parallax">Mouse Parallax</Link>
     </nav>
   );
 };

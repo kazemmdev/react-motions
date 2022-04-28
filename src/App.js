@@ -8,7 +8,7 @@ import Toggle from "./views/Toggle";
 import Drag from "./views/Drag";
 import MouseParallax from "./views/MouseParallax";
 import CardFlip from "./views/CardFlip";
-import RadioGroup from "./views/RadioGroup";
+import RadioGroup from "./views/RadioGroupSelection";
 
 const App = () => {
   return (

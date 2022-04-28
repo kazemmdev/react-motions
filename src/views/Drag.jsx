@@ -6,9 +6,10 @@ const Drag = () => {
   const ref = useRef();
   const animation = useAnimation();
 
-  const handleDrag = (e, info) => {
-    let scale = transform(info.point.x, [0, 600], [0.5, 2]);
-    let rotate = transform(info.point.x, [0, 600], [0, 360]);
+  const handleDrag = (_, info) => {
+    console.log(info.point.x);
+    let scale = transform(info.point.x, [700, 1000], [0.5, 2]);
+    let rotate = transform(info.point.x, [700, 1000], [0, 360]);
 
     animation.start({
       scale,

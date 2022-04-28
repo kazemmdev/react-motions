@@ -8,6 +8,7 @@ import Toggle from "./views/Toggle";
 import Drag from "./views/Drag";
 import MouseParallax from "./views/MouseParallax";
 import CardFlip from "./views/CardFlip";
+import RadioGroup from "./views/RadioGroup";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
             <Route path="/drag" element={<Drag />} />
             <Route path="/mouse-parallax" element={<MouseParallax />} />
             <Route path="/card-flip" element={<CardFlip />} />
+            <Route path="/radio-group" element={<RadioGroup />} />
           </Routes>
         </div>
       </div>

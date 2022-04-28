@@ -12,6 +12,7 @@ const Navigation = () => {
       <Link to="/drag">Sample Drag</Link>
       <Link to="/mouse-parallax">Mouse Parallax</Link>
       <Link to="/card-flip">Card flip</Link>
+      <Link to="/radio-group">Radio group</Link>
     </nav>
   );
 };

@@ -7,20 +7,12 @@
   justify-content: center;
 }
 
-.card-1 {
+.card {
+  width: 150px;
+  height: 200px;
+  position: absolute;
+  border-radius: 15px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   background: rgb(68, 32, 224);
-  width: 150px;
-  height: 200px;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
-  position: absolute;
-  border-radius: 15px;
-}
-
-.card-2 {
-  background: rgb(231, 38, 38);
-  width: 150px;
-  height: 200px;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
-  position: absolute;
-  border-radius: 15px;
 }

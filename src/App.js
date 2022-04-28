@@ -10,6 +10,7 @@ import MouseParallax from "./views/MouseParallax";
 import CardFlip from "./views/CardFlip";
 import RadioGroup from "./views/RadioGroupSelection";
 import Lock from "./views/Lock";
+import ShareTo from "./views/ShareTo";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/card-flip" element={<CardFlip />} />
             <Route path="/radio-group" element={<RadioGroup />} />
             <Route path="/lock" element={<Lock />} />
+            <Route path="/share-to" element={<ShareTo />} />
           </Routes>
         </div>
       </div>

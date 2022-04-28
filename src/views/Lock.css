@@ -1,0 +1,25 @@
+.lock-container {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+.lock {
+  position: absolute;
+  transform-origin: -50px;
+}
+
+.text-lock {
+  position: absolute;
+  font-size: 40px;
+  font-weight: 600;
+  color: #612ed8;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  left: 60px;
+}

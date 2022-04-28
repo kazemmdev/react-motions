@@ -14,6 +14,7 @@ const Navigation = () => {
       <Link to="/card-flip">Card flip</Link>
       <Link to="/radio-group">Radio group</Link>
       <Link to="/lock">Lock</Link>
+      <Link to="/share-to">ShareTo</Link>
     </nav>
   );
 };

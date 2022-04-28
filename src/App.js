@@ -7,6 +7,7 @@ import Home from "./views/Home";
 import Toggle from "./views/Toggle";
 import Drag from "./views/Drag";
 import MouseParallax from "./views/MouseParallax";
+import CardFlip from "./views/CardFlip";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/toggle" element={<Toggle />} />
             <Route path="/drag" element={<Drag />} />
             <Route path="/mouse-parallax" element={<MouseParallax />} />
+            <Route path="/card-flip" element={<CardFlip />} />
           </Routes>
         </div>
       </div>

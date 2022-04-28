@@ -13,6 +13,7 @@ const Navigation = () => {
       <Link to="/mouse-parallax">Mouse Parallax</Link>
       <Link to="/card-flip">Card flip</Link>
       <Link to="/radio-group">Radio group</Link>
+      <Link to="/lock">Lock</Link>
     </nav>
   );
 };
